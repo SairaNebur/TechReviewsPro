@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Reseñas</title>
+</head>
+<body>
+    
+    <header class="cabecera">
+      <figure id="logo-empresa">
+        <img id="logo" src="../images/Banner Corregido.jpg" alt="Logo_TRP">
+      </figure>
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"  fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+      </svg>
+        <h1 class="titulo">Tech Review Pro</h1>
+        <nav class="navbar bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Menu</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../proyecto_Trp/pages/resenias.html">Reseñas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Comprar</a>
+                      </li>
+                        <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Productos
+                         </a>
+                         <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Auriculares</a></li>
+                          <li><a class="dropdown-item" href="#">Traductor de Voz</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                         </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+              
+        </nav>
+        
+    </header>
+    <main class="centrado">
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+          <div class="card" style="width: 25rem;">
+              <img src="images/JBLConAmigos.jpg" class="card-img-top" alt="JBLConAmigos">
+            <div class="card-body">
+                <h5 class="card-title">Altavoces Bluetooth</h5>
+                <p class="card-text">La tecnología de altavoz portátil Bluetooth redefine la forma en que disfrutamos el audio. Compactos y ligeros, estos dispositivos ofrecen libertad inalámbrica y sonido de alta calidad en cualquier lugar. Con una conexión sencilla a smartphones, tabletas u otros dispositivos, permiten compartir música, llamadas y entretenimiento con solo un toque. Su batería de larga duración asegura horas de uso continuo, mientras que su diseño robusto los hace ideales para aventuras al aire libre o reuniones en interiores. Además, muchos modelos incluyen características avanzadas como resistencia al agua y emparejamiento estéreo. Innovación que combina conveniencia, portabilidad y estilo..</p>
+                <a href="#" class="btn btn-primary">Ir a Altavoces Bluetooth</a>
+                <i class="bi bi-cart">Agregar al Carrito</i>
+            </div>
+          </div>
+        
+
+     
+          <div class="card" style="width: 25rem;">
+            <img src="images/Desglose_G733.jpg" class="card-img-top" alt="Auriculares">
+            <div class="card-body">
+              <h5 class="card-title">Auriculares</h5>
+              <p class="card-text">Los auriculares modernos son la combinación perfecta de diseño, comodidad y tecnología avanzada. Disponibles en versiones inalámbricas o con cable, ofrecen una experiencia auditiva inmersiva y versátil. Equipados con cancelación activa de ruido, potencian la concentración al bloquear sonidos externos, mientras que sus micrófonos integrados garantizan llamadas claras y nítidas. Ideales para música, podcasts o videojuegos, muchos modelos incluyen controles táctiles intuitivos y baterías de larga duración. Además, su ergonomía asegura un ajuste cómodo para uso prolongado. Los auriculares no solo son un accesorio funcional, sino una herramienta esencial para el estilo de vida digital actual..</p>
+              <a href="#" class="btn btn-primary">Ir a Auriculares</a>
+            </div>
+          </div>
+        
+
+      
+          <div class="card" style="width: 25rem;">
+              <img src="images/Cheetah_Talk_plus.png" class="card-img-top" alt="traductores">
+              <div class="card-body">
+                <h5 class="card-title">Traductores</h5>
+                <p class="card-text">Los traductores de voz portátiles son aliados imprescindibles para viajeros y profesionales que buscan superar barreras lingüísticas. Compactos y fáciles de usar, estos dispositivos convierten conversaciones en tiempo real a múltiples idiomas con sorprendente precisión. Utilizan tecnología avanzada de reconocimiento de voz e inteligencia artificial para ofrecer traducciones rápidas y fluidas. Algunos modelos cuentan con funciones offline, ideales para zonas sin conexión a internet, y baterías de larga duración que garantizan su uso continuo. Su diseño intuitivo los hace accesibles para todos, brindando una experiencia de comunicación sin fronteras. Innovación que conecta culturas con solo pulsar un botón..</p>
+                <a href="#" class="btn btn-primary">Ir a Traductores</a>
+              </div>
+            </div>    
+    </main>
+    
+
+
+
+
+
+
+    <footer>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
